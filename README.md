@@ -20,7 +20,7 @@ Here’s the thought process:
 
 ---
 
-## ⚙️ Implementation
+## ⚙ Implementation
 
 ### **Tech Stack**
 - **AWS S3** — Storage for uploaded receipts.
@@ -40,7 +40,7 @@ Here’s the thought process:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.10+
@@ -66,7 +66,7 @@ black . && isort . && flake8 .
 
 ---
 
-## 🧪 Local Testing (optional)
+##  Local Testing (optional)
 You can emulate the Lambda handler locally by constructing a mock S3 event and calling `lambda_handler`.
 
 ```python
@@ -86,7 +86,7 @@ Note: This requires valid AWS credentials and resources.
 
 ---
 
-## 📚 Lessons Learned
+##  Lessons Learned
 - **Textract Data Parsing**: The raw Textract output is complex JSON. Writing a clean parser to handle edge cases (missing totals, different vendor formats) was crucial.
 - **SES Sandbox Mode**: AWS SES is in "sandbox mode" by default, meaning you can only send to verified emails. This required verification setup.
 - **Error Handling**: Not all receipts have clear totals/dates — fallback defaults had to be implemented.
@@ -94,7 +94,7 @@ Note: This requires valid AWS credentials and resources.
 
 ---
 
-## ✅ Deliverables
+##  Deliverables
 - **Working AWS Lambda Python Script** — Handles end-to-end automation.
 - **DynamoDB Table** — Stores all extracted receipt data.
 - **SES Email Template** — HTML formatted receipt report.
@@ -103,7 +103,7 @@ Note: This requires valid AWS credentials and resources.
 
 ---
 
-## 🔐 Security & License
+##  Security & License
 - See `SECURITY.md` for vulnerability reporting.
 - Licensed under **Apache-2.0** (see `LICENSE`).
 
