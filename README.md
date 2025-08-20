@@ -1,6 +1,6 @@
 # Automating Receipts with AWS & AI
 
-## 📌 Background
+##  Background
 Managing expenses manually is time-consuming and prone to human error. Many businesses and individuals have stacks of paper receipts that need to be logged for accounting, tax filing, or reimbursement purposes.  
 Traditional expense tracking requires manually entering vendor names, totals, and item details into a spreadsheet or accounting software — a tedious and error-prone task.
 
