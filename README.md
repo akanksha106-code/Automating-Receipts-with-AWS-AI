@@ -9,7 +9,7 @@ It eliminates manual data entry, reduces errors, and sends instant notifications
 
 ---
 
-## 💡 Understanding
+##  Understanding
 The main goal was to automate the journey from **receipt upload** → **data extraction** → **storage** → **notification**.  
 Here’s the thought process:
 1. **Input Source**: Receipts can be uploaded as images or PDFs to an Amazon S3 bucket.
